@@ -1,0 +1,10 @@
+header
+  nav
+    ul
+      each page in pages
+        li
+          a(href= page.url)= page.title
+          if page.child.length > 0
+            ul
+              each sub in page.child
+                li: a(href= sub.url)= sub.title

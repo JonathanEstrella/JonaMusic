@@ -1,0 +1,17 @@
+// impott base
+@import "./base/base";
+
+// impott variables
+@import "./config/variables";
+
+// impott theme
+@import "./theme/theme";
+
+// impott typografies
+@import "./typografies/typografies";
+
+
+// impott mixins
+@import "./mixins/mianMenu";
+@import "./mixins/body";
+@import "./mixins/bodyBG";

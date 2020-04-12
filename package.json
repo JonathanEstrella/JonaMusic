@@ -1,0 +1,21 @@
+{
+  "name": "jonamusic",
+  "version": "1.0.0",
+  "description": "JonaMusic lugar de instrumentos, efectos, luces, sonido, ..., donde lo que te apasiona lo encuentras!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jonathanestrella",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-cache-bust": "^1.4.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sitemap": "^7.6.0",
+    "jstransformer-markdown-it": "^2.1.0"
+  }
+}
