@@ -1,0 +1,30 @@
+%buttons {
+  display: block;
+  width: 6rem;
+  text-align: center;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: $textSmall;
+}
+
+@mixin button {
+  @extend %buttons;
+  background-color: teal;
+  border : none;
+  cursor: pointer;
+  outline: none;
+}
+
+@mixin register {
+  @extend %buttons;
+  color: #0F2703;
+  color: #74F039;
+  // background-color: #74F039;
+  border: 2px solid #74F039;;
+  font-size: $textSmaller;
+  font-weight: bold;
+  display: inline-block;
+  width: 5.2rem;
+  line-height: 100%;
+}

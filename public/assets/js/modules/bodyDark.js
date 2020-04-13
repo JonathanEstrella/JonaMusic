@@ -1,12 +1,12 @@
 export default function bgDark() {
   const dark = document.getElementById('dark'),
       page = document.querySelector('.page'),
-      nav = document.querySelector('nav')
+      header = document.querySelector('.mainHeader')
 
   if(dark) {
     dark.addEventListener('click', e => {
       page.classList.toggle('darkBG')
-      nav.classList.toggle('navDark')
+      header.classList.toggle('headerDark')
       // dark.textContent = 'Light'
     })
   }

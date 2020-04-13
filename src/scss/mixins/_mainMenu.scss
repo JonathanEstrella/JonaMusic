@@ -1,4 +1,4 @@
-nav {
+.mainHeader {
   background-color: #879BA2;
 }
 
@@ -15,4 +15,9 @@ h1 {
     family : $fontHeading;
   }
   line-height: $heading-1 * 1.3;
+}
+
+.logo {
+  height: 2rem;
+  width: auto;
 }

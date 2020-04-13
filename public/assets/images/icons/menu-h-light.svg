@@ -1,5 +1,7 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="28" height="4" rx="2" fill="#F2FAFD"/>
-<rect x="4" y="12" width="20" height="4" rx="2" fill="#F2FAFD"/>
-<rect y="24" width="28" height="4" rx="2" fill="#F2FAFD"/>
+<svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="menu-h-ligth">
+<path id="botton" fill-rule="evenodd" clip-rule="evenodd" d="M0 22.0013C0 20.8974 0.895431 20.0026 2 20.0026H30C31.1046 20.0026 32 20.8974 32 22.0013C32 23.1051 31.1046 24 30 24H2C0.895431 24 0 23.1051 0 22.0013Z" fill="#F2FAFD"/>
+<path id="center" fill-rule="evenodd" clip-rule="evenodd" d="M4 12C4 10.8961 4.89543 10.0013 6 10.0013H26C27.1046 10.0013 28 10.8961 28 12C28 13.1039 27.1046 13.9987 26 13.9987H6C4.89543 13.9987 4 13.1039 4 12Z" fill="#F2FAFD"/>
+<path id="top" fill-rule="evenodd" clip-rule="evenodd" d="M0 1.99871C0 0.894855 0.895431 0 2 0H30C31.1046 0 32 0.894855 32 1.99871C32 3.10257 31.1046 3.99743 30 3.99743H2C0.895431 3.99743 0 3.10257 0 1.99871Z" fill="#F2FAFD"/>
+</g>
 </svg>

@@ -1,10 +1,30 @@
-header
-  nav
-    ul
-      each page in pages
-        li
-          a(href= page.url)= page.title
-          if page.child.length > 0
-            ul
-              each sub in page.child
-                li: a(href= sub.url)= sub.title
+include buttons
+
+
+header.mainHeader
+  .containerLogo
+    .containerImg
+      a.logoLink(href="/")
+        img.logo(src=`${pathIcons}logo-dark.svg`, alt="Logo JonaMusic" title="Home")
+  .containerNav
+    nav.mainNav
+      .containerRegister
+        +register('Sing up','/register')
+      .containerSearch
+        a.searchLink(href="")
+          img.searchImg.icons(src=`${pathIcons}search-dark.svg`, alt="")
+      .containerUser
+        a.userLink(href="/login")
+          img.userImg.icons(src=`${pathIcons}user-dark.svg`, alt="")
+      .containerMenu
+        .containerMenuH#toggle
+          img.menuHImg.icons(src=`${pathIcons}menu-h-dark.svg`, alt="")
+        ul.mainMenu#menu
+          each page in pages
+            li.menuItems
+              a.menuLinks(href= page.url)= page.title
+              if page.child.length > 0
+                ul.subMenu
+                  each sub in page.child
+                    li.subItems: a.subLinks(href= sub.url)= sub.title
+
